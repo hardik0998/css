@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+}
+body{
+    background: url(/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+  background-color: rgb(161, 230, 24);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 518px;
+  font-size: 16px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(27, 23, 23);
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: rgb(64, 128, 0);
+}
+#search {
+  position: absolute;
+  right: 120px;
+  top: 40px;
+  width: 200px;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+}
+.fa-search{
+  position: absolute;
+  top: 40px;
+  right: 93px;
+  cursor: pointer;
+}
+fa-comments-o{
+    position: absolute;
+    top: 40px;
+    right: 85px;
+    cursor: pointer;
+}
+.fa:hover{
+    color:rgb(64, 128, 0) ;
+}
+.clean{
+    background-color: grey;
+    opacity: 1;
+    z-index: 1;
+}
+.fill_form{
+    display: block;
+    width: 33%;
+    margin: 51px 503px;
+    padding: 75px;
+    border: 2px solid white;
+    border-radius:15px ;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+.fill_form label{
+   cursor: pointer;
+}
+
+.fill_form label:hover{
+    color: rgb(144, 215, 38);
+
+}
+.fill_form input{
+    margin: 25px;
+    padding: 10px;
+   width: 173px;
+   border-radius: 15px; 
+  border: none;
+  text-align: center;
+}
+.fill_form button{
+    padding: 14px;
+    width: 155px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin: 30px 75px;
+}
+
+.fill_form button:hover{
+    background-color: rgb(161, 230, 24);
+    opacity: 1;
+}
+
+
+
+
+
+
