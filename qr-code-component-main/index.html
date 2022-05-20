@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 100px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* This is where my code starts  */
+      * {
+        box-sizing: border-box;
+        /* margin: 0%;
+        padding: 0%; */
+        font-family: "Big Shoulders Display", cursive;
+        font-weight: 700;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(211, 255, 255);
+      }
+      .container {
+        display: flex;
+        /* min-height: 100vh; */
+        flex-direction: column;
+        width: 40%;
+        height: 80vh;
+        margin: 30px auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 25px;
+      }
+      .container img {
+        width: 270px;
+        /* padding: 30px; */
+        margin-top: -51px;
+        border-radius: 15px;
+      }
+      .container p {
+        width: 50%;
+        line-height: 20px;
+        padding: -13px;
+      }
+      .p1 {
+        font-size: 19px;
+      }
+      .p2 {
+        /* opacity: 0.5;
+         */
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/image-qr-code.png" alt="no image found" />
+      <p class="p1">
+        <b>
+          Improve your front-end <br />
+          skills by building projects
+        </b>
+      </p>
+      <p class="p2">
+        Scan the QR code to visit Frontend <br />
+        Mentor and take your coding skills to <br />
+        the next level
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hardik Kakkar</a>.
+    </div>
+  </body>
+</html>
